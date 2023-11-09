@@ -1,11 +1,11 @@
 from PIL import Image
 import streamlit as st
 import pandas as pd
+import sklearn
 import pickle
 import numpy as np
 import time
 from sklearn.preprocessing import LabelEncoder
-import sklearn
 import sqlite3
 #st.image('WhatsApp Image 2023-10-31 at 22.19.15_4f7e2e48.jpg', use_column_width=True)
 df=pd.read_csv('data.csv')
